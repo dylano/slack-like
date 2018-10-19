@@ -1,0 +1,29 @@
+.messenger {
+  border-top: 2px solid black;
+  width: 100%;
+  flex: 0 0 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aqua;
+}
+
+.messenger-form {
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+}
+
+.messenger-input {
+  flex: 1;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px;
+}
+
+.messenger-submit {
+  margin: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px;
+}
