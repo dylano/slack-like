@@ -1,31 +1,23 @@
 .messenger {
   width: 100%;
   flex: 0 0 60px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
 }
 
 .messenger-form {
   display: flex;
-  /* flex-direction: column; */
-  width: 100%;
 }
 
 .messenger-input {
   flex: 1;
   margin: 10px;
-  border-radius: 5px;
-  border: 1px solid lightgray;
+  border-radius: 10px;
+  border: 2px solid lightgray;
   height: 30px;
   padding-left: 10px;
   font-size: 0.9rem;
 }
 
-.messenger-submit {
-  margin: 10px;
-  margin-right: 10px;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px;
+.messenger-input:focus {
+  outline: none;
+  box-shadow: 0 0 2px blue;
 }

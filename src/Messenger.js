@@ -26,7 +26,7 @@ class Messenger extends Component {
   render() {
     return (
       <div className="messenger">
-        <form className="messenger-form">
+        <form className="messenger-form" onSubmit={e => this.onNewMessage(e, this.state.newMessage)}>
           <input
             className="messenger-input"
             type="text"
@@ -34,9 +34,6 @@ class Messenger extends Component {
             value={this.state.newMessage}
             onChange={this.handleChange}
           />
-          <button className="messenger-submit" onClick={e => this.onNewMessage(e, this.state.newMessage)}>
-            Send
-          </button>
         </form>
       </div>
     );
