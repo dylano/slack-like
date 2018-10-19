@@ -7,8 +7,8 @@ let messages = {
       messages: [
         {
           timestamp: 1539903440179,
-          user: "Marge",
-          message: "Hi Homie"
+          user: "Dr. Nick",
+          message: "Hi everybody!"
         },
         {
           timestamp: 1539903440379,

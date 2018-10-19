@@ -1,6 +1,6 @@
 .message-history {
   flex: 1;
-  background-color: bisque;
+  background-color: white;
   width: 100%;
   line-height: 2;
   display: flex;
@@ -9,7 +9,12 @@
 }
 
 .messagehistory-item-user {
+  color: goldenrod;
   font-weight: 600;
   padding-right: 10px;
   padding-left: 5px;
+}
+
+.messagehistory-item-message {
+  color: black;
 }

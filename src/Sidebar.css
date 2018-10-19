@@ -1,5 +1,6 @@
 .sidebar {
-  background-color: green;
+  background-color: blue;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -16,12 +17,12 @@
 }
 
 .selected {
-  background-color: black;
-  color: green;
+  background-color: goldenrod;
+  color: black;
 }
 
 .sidebar li:hover {
-  color: white;
+  color: grey;
 }
 
 .sidebar-section-title {

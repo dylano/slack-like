@@ -30,7 +30,7 @@ class Messenger extends Component {
           <input
             className="messenger-input"
             type="text"
-            placeholder="chat here"
+            placeholder="chat here, press Enter to send"
             value={this.state.newMessage}
             onChange={this.handleChange}
           />

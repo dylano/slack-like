@@ -1,11 +1,10 @@
 .messenger {
-  border-top: 2px solid black;
   width: 100%;
   flex: 0 0 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: aqua;
+  background-color: white;
 }
 
 .messenger-form {
@@ -18,11 +17,14 @@
   flex: 1;
   margin: 10px;
   border-radius: 5px;
-  box-shadow: 0 0 3px;
+  border: 1px solid lightgray;
+  height: 30px;
+  padding-left: 10px;
+  font-size: 0.9rem;
 }
 
 .messenger-submit {
-  margin: 5px;
+  margin: 10px;
   margin-right: 10px;
   border-radius: 5px;
   box-shadow: 5px 5px 5px;
